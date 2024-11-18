@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<title>Music for the Weather</title>
+</head>
+<body>
+	<div style="display: flex; align-items: center;">
+		<img id="logo" src="static/SpotifyRobloxLogo.png">
+		<h1>Personalised Robloxian Playlist</h1>
+	</div>
+	<form method="POST">
+		<label id = "typeinterface">Roblox Username:</label>
+		<input name=req_name type="text" value={{user_name}}><br><br>
+		<input type="submit" value="Submit!"><br><br>
+	</form>
+	<!--{% for song in songs %}-->
+	<!--	<p>{{song}}</p>-->
+	<!--{% endfor %}-->
+
+	<h2>{{user_name}}'s Playlist</h2>
+	
+	<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/{{playlist_id}}?utm_source=generator"
+	width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+	loading="lazy"></iframe>
+
+</body>
+</html>

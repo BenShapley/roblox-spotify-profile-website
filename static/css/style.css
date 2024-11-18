@@ -1,0 +1,33 @@
+body {
+	background-color: #212121;
+    align-items: center;
+}
+
+h1{
+	padding: 10px;
+	color: #1db954;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+h2{
+	padding: 10px;
+	color: #1db954;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+
+h3{
+	color: #b3b3b3;
+	font-family: sans-serif;
+}
+
+#logo{
+	width: 69px;
+	height: 55px;
+	padding-right: 10px;
+}
+
+#typeinterface{
+    color: #b3b3b3;
+    font-family: sans-serif;
+}
