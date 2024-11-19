@@ -1,3 +1,5 @@
+
+
 body {
 	padding: 20px;
 	background-color: #212121;
@@ -32,3 +34,26 @@ h3{
     color: #b3b3b3;
     font-family: sans-serif;
 }
+
+#input_box{
+	border-radius: 8px;
+}
+
+#input_button{
+	/* border-radius: 20px; */
+	
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	border-radius: 8px;
+	padding: 14px 24px;
+	border: none;
+	transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+	background: linear-gradient(to right, rgb(24, 190, 37) 0%, rgb(25, 196, 96) 50%, rgb(71, 215, 4) 100%);
+	color: #fff;
+
+}
+
