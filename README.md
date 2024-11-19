@@ -74,6 +74,8 @@ Before trying to run this application, please ensure you install all of the corr
 4. **Hit Generate:**
 
    Hit the generate button and make your playlist!
+   
+   ![Button](gh-assets/GenerateButton.png)
 
 
 
