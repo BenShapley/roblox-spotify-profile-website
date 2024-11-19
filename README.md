@@ -9,8 +9,10 @@
 <p>
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
+  <a href="#FAQ">FAQ</a> •
   <a href="#credits">Credits</a> 
 </p>
+
 
 
 ![spotify_images](gh-assets/WebsiteScreenshot.png)
@@ -61,11 +63,11 @@ Before trying to run this application, please ensure you install all of the corr
 
 2. **Run Flask:**
 
-   Run your flask app using **flask run** and open the local website
+   Run your flask app using **flask run** within your command prompt and open the local website
 
    > **Note**
    >
-   > Ensure you are within your Virtual Environment when you run your flask app
+   > Ensure you are within your Virtual Environment with all the requirments installed when you run your flask app
 
 3. **Search a Name:**
 
@@ -76,6 +78,30 @@ Before trying to run this application, please ensure you install all of the corr
    Hit the generate button and make your playlist!
    
    ![Button](gh-assets/GenerateButton.png)
+   
+   # FAQ
+   
+   1) **How do I set up a Virtual Environment?**
+   
+      A: To set up a Virtual Environment, go to where you cloned/downloaded the repository and open up the Command Prompt (CMD). Within CMD, type `virtualenv venv`.
+   
+      
+   
+   2) **What is a Roblox Cookie?**
+   
+      A: Your Roblox Cookie is a unique identifier to your account that allows the API to authenticate that you are logged in. Without this, the API will be unsuccessful when trying to scrape.
+   
+      
+   
+   3) **Why cant I find my Roblox Profile?**
+   
+      A: Sometimes if you search a specific profile, it may not come up. To fix this, type up the Roblox display name rather than their username. This is due to how the Roblox search system works.
+   
+      
+   
+   4) **What is the Potential of this System?**
+   
+      A: This system showcases the power of APIs and how they can be used to bridge the gap between two brands. In this case, it shows how Roblox could partner with Spotify to make some interesting and fun results! The system can also be developed to search for songs based on what the user is wearing or playing rather than name.
 
 
 
